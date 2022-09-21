@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ae3710-6f8b-41de-b3d6-e0625c7ac0b1" name="Changes" comment="CheckIfArrayStrictlyIncrease">
+    <list default="true" id="c8ae3710-6f8b-41de-b3d6-e0625c7ac0b1" name="Changes" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <changelist_data name="Anjali patil" email="anjupatil42@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/arraysMaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/InsertionSort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/Strings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ArraySumRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraySumRecursion" />
@@ -53,8 +58,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseWordsInAGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseWordsInAGivenString" />
+      <module name="Strings" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraysMaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraysMaxProduct" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arraysMaxProduct" />
+        <item itemvalue="Application.ReverseWordsInAGivenString" />
         <item itemvalue="Application.ArraySumRecursion" />
       </list>
     </recent_temporary>
@@ -96,42 +117,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663753354375</updated>
     </task>
-    <task id="LOCAL-00005" summary="Array sum&#10;Fib Sequence">
-      <created>1663757438910</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1663757438910</updated>
-    </task>
-    <task id="LOCAL-00006" summary="CheckIfArrayStrictlyIncrease">
-      <created>1663759288706</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663759288706</updated>
-    </task>
-    <task id="LOCAL-00007" summary="CheckIfArrayStrictlyIncrease">
-      <created>1663766575794</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663766575794</updated>
-    </task>
-    <task id="LOCAL-00008" summary="CheckIfArrayStrictlyIncrease">
-      <created>1663766631953</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663766631953</updated>
-    </task>
-    <task id="LOCAL-00009" summary="CheckIfArrayStrictlyIncrease">
-      <created>1663766734052</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663766734052</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,10 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selection sort" />
     <MESSAGE value="bubble sort" />
-    <MESSAGE value="Array sum&#10;Fib Sequence" />
     <MESSAGE value="NthEvenFibonacciNumber" />
-    <MESSAGE value="CheckIfArrayStrictlyIncrease" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="NthEvenFibonacciNumber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,104 +266,39 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Arrays/src/CheckIfArrayStrictlyIncrease.java</url>
+          <url>file://$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java</url>
           <line>7</line>
-          <option name="timeStamp" value="49" />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Strings/src/ReverseWordsInAGivenString.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Recursion/src/ReverseArray.java</url>
@@ -401,5 +320,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_Structures$arraysMaxProduct.ic" NAME="arraysMaxProduct Coverage Results" MODIFIED="1663869052600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
