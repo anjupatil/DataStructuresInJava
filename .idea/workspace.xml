@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ae3710-6f8b-41de-b3d6-e0625c7ac0b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c8ae3710-6f8b-41de-b3d6-e0625c7ac0b1" name="Changes" comment="selection sort">
+      <change afterPath="$PROJECT_DIR$/Sorting/src/bubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/src/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,21 @@
       <option name="presentableId" value="Default" />
       <updated>1663750726562</updated>
     </task>
+    <task id="LOCAL-00001" summary="selection sort">
+      <created>1663751770179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663751770179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="selection sort">
+      <created>1663751953228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663751953228</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selection sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="selection sort" />
   </component>
 </project>
